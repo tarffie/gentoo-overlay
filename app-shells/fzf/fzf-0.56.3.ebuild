@@ -15,7 +15,7 @@ MY_GIT_REV=961ae1541cb1735191c433f11d2f422e3b9cd452
 MY_GIT_REV=${MY_GIT_REV:0:7}
 
 SRC_URI="https://github.com/junegunn/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
-SRC_URI+=" https://github.com/tarffie/gentoo-overlay/blob/main/distfiles/${P}-deps.tar.xz"
+SRC_URI+=" https://github.com/tarffie/gentoo-overlay/releases/download/distfiles/${P}-deps.tar.xz"
 
 LICENSE="MIT BSD-with-disclosure"
 SLOT="0"
